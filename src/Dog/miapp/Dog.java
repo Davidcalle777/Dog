@@ -20,13 +20,4 @@ public class Dog {
     // Creamos un constructor para asignarle valores.
     // Creamos un metodo ladrar() que hace que el perro "ladre".
 
-    // crear un objeto
-         class Main {
-            public static void main(String[] args) {
-            // Crear un objeto de la clase Perro
-            Dog miDog = new Dog("Pecas", "Doberman");
-
-            // Usar el metodo ladrar
-            miDog.ladrar();
-        }
-    }
+   
