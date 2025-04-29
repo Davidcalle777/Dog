@@ -1,23 +1,22 @@
 package Dog.miapp;
 
 public class Dog {
-    //  attributes (  characteristics )
-     String name;
-     String Raza;
+    // Atributos
+    private String name;
+    private String raza;
 
-    // Constructor (sirve para dar valores a los atributos)
-    public Dog(String name, String Raza) {
-        this.name = "Pecas";
-        this.Raza = "Doberman";
+    // Constructor
+    public Dog(String name, String raza) {
+        this.name = name;
+        this.raza = raza;
     }
-         // Metodo (acción que puede hacer)
-        public void ladrar() {
-        System.out.println(name + " Dice: ¡Guau!");
+
+    // Metodo
+    public void ladrar() {
+        System.out.println(name + " dice: ¡Guau!");
     }
 }
     // Definimos una clase llamada Dog.
     // Declaramos atributos: nombre y raza.
     // Creamos un constructor para asignarle valores.
     // Creamos un metodo ladrar() que hace que el perro "ladre".
-
-   
