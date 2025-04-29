@@ -1,7 +1,10 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
+ // crear un objeto
+         class Main {
+            public static void main(String[] args) {
+            // Crear un objeto de la clase Perro
+            Dog miDog = new Dog("Pecas", "Doberman");
 
+            // Usar el metodo ladrar
+            miDog.ladrar();
+        }
     }
-}
